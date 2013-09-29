@@ -22,7 +22,7 @@
 	<div class="infopane">
 		<div class="content">
 			<a href="index.php" class="backtrack winning_color">Back to homepage</a>
-	<h1 class="winning_color"> Event Proposal </h1>
+	<h1 class="winning_color"> Proposals </h1>
 	<p>Have an proposal in mind? We'd love to hear it! Send off this form and someone will get back to you soon! Make sure your proposal is made two weeks in advance.
 	Keep in mind that we may ask you to attend the next cabinet meeting to make your case! </p>
 	
@@ -38,18 +38,10 @@
 		<table>
 		<tr><td>Your Name:</td><td><input type="text" name="name" /></td></tr>
 		<tr><td>Your Email:</td><td><input type="text" name="email" /></tr></tr>
-		<tr><td>Your House:</td><td>
-			<select name="house">
-				<option value="hawthorn">Hawthorn</option>
-				<option value="hickory">Hickory</option>
-				<option value="holly">Holly</option>
-				<option value="honey">Honey Locust</option>
-			</select>
-		</tr>
-		<tr><td>Planned Date</td><td><input type="date" name="date" /></td></tr>
-		<tr><td>Type of Event:</td><td><input type="text" name="type" /></td></tr>
-		<tr><td valign="top">Describe Your Event:</td><td><textarea name="description" rows="10" cols="50">Take as much space as you need!</textarea></td></tr>
-		<tr><td><input type="submit" value="Submit!" name="submit"/></td><td><input type="reset" value="Reset!" name="reset"/></td></tr>
+		<tr><td>Estimated Date:</td><td><input type="date" name="date" /></td></tr>
+		<tr><td>Recurrence (optional):</td><td><input type="text" name="recurrence" placeholder="i.e., every other Tuesday" /></td></tr>
+		<tr><td valign="top">Description:</td><td><textarea name="description" rows="10" cols="50" placeholder="Type your description here"></textarea></td></tr>
+		<tr><td><input class="btn" type="submit" value="Submit!" name="submit"/></td><td><input class="btn" type="reset" value="Reset!" name="reset"/></td></tr>
 		</table>
 		</form>
 			</div>
