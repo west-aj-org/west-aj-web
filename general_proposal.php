@@ -39,7 +39,7 @@
 		<tr><td>Your Name:</td><td><input type="text" name="name" /></td></tr>
 		<tr><td>Your Email:</td><td><input type="text" name="email" /></tr></tr>
 		<tr><td>Estimated Date:</td><td><input type="date" name="date" /></td></tr>
-		<tr><td>Recurrence (optional):</td><td><input type="text" name="recurrence" placeholder="i.e., every other Tuesday" /></td></tr>
+		<tr><td valign="top">Recurrence (optional):</td><td><textarea name="recurrence" rows="10" cols="50" placeholder="i.e., once a month"></textarea></td></tr>
 		<tr><td valign="top">Description:</td><td><textarea name="description" rows="10" cols="50" placeholder="Type your description here"></textarea></td></tr>
 		<tr><td><input class="btn" type="submit" value="Submit!" name="submit"/></td><td><input class="btn" type="reset" value="Reset!" name="reset"/></td></tr>
 		</table>
