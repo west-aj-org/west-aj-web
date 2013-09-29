@@ -21,9 +21,9 @@
 		
 	<div class="infopane">
 		<div class="content">
-			<a href="index.php" class="backtrack winning_color">« Back to homepage</a>
-	<h1 class="winning_color"> Event Proposal </h1>
-	<p>Have an event in mind? We'd love to hear it! Send off this form and someone will get back to you soon! Make sure your proposal is made two weeks in advance.
+			<a href="index.php" class="backtrack winning_color">Back to homepage</a>
+	<h1 class="winning_color"> Event Form </h1>
+	<p>Have an event in mind? We'd love to hear it! Send off this form and someone will get sback to you soon! Make sure your proposal is made two weeks in advance.
 	Keep in mind that we may ask you to attend the next cabinet meeting to make your case! </p>
 	
 	<div class="breakdown">
