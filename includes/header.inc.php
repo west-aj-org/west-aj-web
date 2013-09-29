@@ -1,5 +1,5 @@
 <?php
-	// connect to databse
+	// connect to database
 	function winningHouse($points) {
 		// determine the winning score
 		$winner = max($points);
