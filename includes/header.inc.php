@@ -123,7 +123,7 @@
 		  <li><a href="education.php"><strong>Education</strong></a></li>
 		  <li><a href="community.php"><strong>Community</strong></a></li>
 		  <li><a href="special.php"><strong>Events</strong></a></li>
-		  <li><a href="documents.php"><strong>Miscellaneous Info</strong></a></li>
+		  <li><a href="documents.php"><strong>Documents</strong></a></li>
 		  <li><a href="general_proposal.php"><strong>Proposals</strong></a></li>
 		</ul>
 	  </div>
