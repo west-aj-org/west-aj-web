@@ -122,7 +122,7 @@
 		  <li><a href="prosim.php"><strong>Ut Prosim</strong></a></li>
 		  <li><a href="education.php"><strong>Education</strong></a></li>
 		  <li><a href="community.php"><strong>Community</strong></a></li>
-		  <li><a href="special.php"><strong>Events</strong></a></li>
+		  <li><a href="special.php"><strong>Special Events</strong></a></li>
 		  <li class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="documents.php"><strong>Documents <i class="caret"></i></strong></a>
 			<ul class="dropdown-menu">
