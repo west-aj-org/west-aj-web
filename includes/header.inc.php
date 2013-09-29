@@ -123,8 +123,20 @@
 		  <li><a href="education.php"><strong>Education</strong></a></li>
 		  <li><a href="community.php"><strong>Community</strong></a></li>
 		  <li><a href="special.php"><strong>Events</strong></a></li>
-		  <li><a href="documents.php"><strong>Documents</strong></a></li>
-		  <li><a href="general_proposal.php"><strong>Proposals</strong></a></li>
+		  <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="documents.php"><strong>Documents <i class="caret"></i></strong></a>
+			<ul class="dropdown-menu">
+			  <li><a href="docs/attendance_sheet.pdf" target="_blank">Attendance Sheet</a></li>
+			  <li><a href="docs/points_doctrine.pdf" target="_blank">Points Doctrine</a></li>
+			</ul>
+		  </li>
+		  <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="general_proposal.php"><strong>Forms <i class="caret"></i></strong></a>
+			<ul class="dropdown-menu">
+			  <li><a href="proposal.php">Events</a></li>
+			  <li><a href="general_proposal.php">Proposals</a></li>
+			</ul>
+		  </li>
 		</ul>
 	  </div>
 	</div>
