@@ -7,7 +7,7 @@
 		$the_email .= "Date Planned: ".$_POST['date']."\r\n";
 		$the_email .= "Type:\t".$_POST['type']."\r\n";
 		$the_email .= "Description:\t".$_POST['description']."\r\n";
-		if (mail("brandonfosterjunkmail@gmail.com", "General Proposal", $the_email)) {
+		if (mail("wajsubmissions@gmail.com", "General Proposal", $the_email)) {
 			header("Location: general_proposal.php?success=1");
 			die();
 		}

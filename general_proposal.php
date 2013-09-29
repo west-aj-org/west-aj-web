@@ -27,7 +27,7 @@
 	Keep in mind that we may ask you to attend the next cabinet meeting to make your case! </p>
 	
 	<div class="breakdown">
-		<?php 
+		<?php
 		if (isset($_GET['error']) && $_GET['error'] == 1) {
 			echo "<p style=\"color: red\">The was an error processing your proposal!</p>";
 		} else if (isset($_GET['success']) && $_GET['success'] == 1) {
