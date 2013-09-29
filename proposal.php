@@ -49,7 +49,7 @@
 		<tr><td>Planned Date</td><td><input type="date" name="date" /></td></tr>
 		<tr><td>Type of Event:</td><td><input type="text" name="type" /></td></tr>
 		<tr><td valign="top">Describe Your Event:</td><td><textarea name="description" rows="10" cols="50">Take as much space as you need!</textarea></td></tr>
-		<tr><td><input type="submit" value="Submit!" name="submit"/></td><td><input type="reset" value="Reset!" name="reset"/></td></tr>
+		<tr><td><input class="btn" type="submit" value="Submit!" name="submit"/></td><td><input class="btn" type="reset" value="Reset!" name="reset"/></td></tr>
 		</table>
 		</form>
 			</div>
