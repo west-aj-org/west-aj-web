@@ -35,8 +35,10 @@
 			$points = 10;
 		} else if ($percent < 20.0) {
 			$points = 20;
-		} else if ($percent < 50.0) {
+		} else if ($percent < 35.0) {
 			$points = 40;
+		} else if ($percent < 50.0) {
+			$points = 70;
 		} else {
 			$points = 100;
 		}
