@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>FLVplayerLite</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    
+    <script type="text/javascript">
+	
+	var flashvars = {
+	  vidWidth: "590",
+	  vidHeight: "300",
+	  vidPath: "http://www.flvplayerlite.com/lab/flv/playerlite.flv",
+	  thumbPath: "http://www.flvplayerlite.com/lab/jpg/playerlite.jpg",
+	  autoPlay: "false",
+	  autoLoop: "true",
+	  watermark: "show",
+	  seekbar: "hide"
+	};
+	var params = {
+	  menu: "true",
+	  allowfullscreen: "true",
+	  allowscriptaccess: "always"
+	};
+	var attributes = {
+	  id: "playerLite",
+	  name: "playerLite"
+	};
+	
+	swfobject.embedSWF("swf/playerLite.swf", "playerLite", flashvars.vidWidth, flashvars.vidHeight, "9.0.0","swf/expressInstall.swf", flashvars, params, attributes);
+	
+	</script>
+
+  </head>
+  <body>
+    <div id="playerLite">
+      <p>Alternative content</p>
+    </div>
+  </body>
+</html>

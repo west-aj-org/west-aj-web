@@ -1,0 +1,361 @@
+body {
+	margin: 0px; 
+	padding 0px;
+}
+.footer {
+	position: absolute;
+	top: 800px;
+	left: 0px;
+	color: white;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+textarea {
+	width: 100%;
+	height: 50px;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7 {
+	display: none;
+}
+
+ul#footer_links {
+	font-size: 9pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px auto;
+	display; block;
+	text-align: center;
+}
+
+body {
+	background: black no-repeat;
+	margin:0px 0px; 
+	padding:0px;
+}
+
+.scoreboard {
+	margin: 0px auto;
+	display: block;
+}
+
+#scoreboardWrapper {
+	margin: 0px auto;
+	width: 1376px;
+	heigh:790px;
+	height: 800px;
+	padding: 0px;
+	display: block;
+}
+
+p {
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer_links li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+a#sports {
+	width: 88px;
+	height: 88px;
+	background: url('../images/sports.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+
+.breakdown table td {
+	font: 11pt Garamond;
+	color: white;
+	padding: 3px 10px;
+}
+
+.breakdown table th {
+	font: 11pt Garamond bold;
+	color: white;
+}
+
+a#info:hover {
+	background: url('../images/info_hover.png') no-repeat;
+}
+
+a#info {
+	width: 115px;
+	height: 79px;
+	background: url('../images/info.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 865px;
+}
+
+a#sports:hover {
+	background: url('../images/sports_hover.png') no-repeat;
+}
+
+a#prosim {
+	width: 46px;
+	height: 90px;
+	background: url('../images/prosim.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 350px;
+	left: 325px;
+}
+
+a#prosim:hover {
+	background: url('../images/prosim_hover.png') no-repeat;
+}
+
+a#education {
+	width: 129px;
+	height: 109px;
+	background: url('../images/education.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 490px;
+	left: 310px;
+}
+
+a#education:hover {
+	background: url('../images/education_hover.png') no-repeat;
+}
+
+a#special {
+	width: 102px;
+	height: 112px;
+	background: url('../images/special.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 350px;
+	left: 835px;
+}
+
+a#special:hover {
+	background: url('../images/special_hover.png') no-repeat;
+}
+
+a#community {
+	width: 96px;
+	height: 60px;
+	background: url('../images/community.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 490px;
+	left: 810px;
+}
+
+a#community:hover {
+	background: url('../images/community_hover.png') no-repeat;
+}
+
+
+.banner {
+	width: 255px;
+	height: 70px;
+	display: block;
+	padding-top: 37px;
+	text-indent: 110px;
+	color: #f7f7fb;
+	z-index: 100;
+	float: left;
+	margin-top: 100px;
+}
+
+.points {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+
+div#hawthorn {
+	background: url('../images/hawthorn_banner.png') no-repeat top left;
+}
+div#hickory {
+	background: url('../images/hickory_banner.png') no-repeat top left;
+}
+div#honey {
+	background: url('../images/honey_banner.png') no-repeat top left;
+}
+div#holly {
+	background: url('../images/holly_banner.png') no-repeat top left;
+}
+
+div#hawthorn_flag {
+	background-color: #006191;
+	color: #f2ead1;
+	float: left;
+}
+
+div#hickory_flag {
+	background-color: #224d29;
+	color: #deb371;
+	float: right;
+}
+
+div#holly_flag {
+	background-color: #8d0615;
+	color: #ccc;
+	float: left;
+}
+.annoucement {
+	width: 800px;
+	opacity: .8;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background: black;
+	color: white;
+	margin: 15px auto -37px auto;
+	text-align: center;
+	font: 12pt Verdana;
+
+}
+
+.flag {
+	width: 200px;
+	opacity: .8;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 30px;
+	padding: 30px 30px;
+	text-align: center;
+	font: 40pt Garamond;
+}
+
+div#honey_flag {
+	background-color: #e7aa0d;
+	color: #464646;
+	float: right;
+	
+}
+
+#numFlags {
+	font-size: 12pt; 
+	display: block;
+	margin: 5px auto;
+}
+
+img#logo {
+	padding-left: auto;
+}
+
+.footer p {
+	font-size: 7pt;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px black;
+	text-align: center;
+	
+}
+
+#flag_banner {
+	background: black;
+	width: 90%;
+	margin: auto;
+	padding: 5px 20px;
+     	-moz-border-radius: 15px;
+	border-radius: 15px;
+	opacity: 0.7;
+	clear: both;
+	text-align: center;
+	color: white;
+}
+
+
+#footer_links a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px black;
+}
+
+#spacer {
+	width: 220px;
+	display: block;
+	float: left;
+}
+
+input {
+
+	background-color: black;
+	color: white;
+}
+
+.popup {
+	background: black;
+	width: 400px;
+	margin: auto;
+	padding: 5px 20px;
+     	-moz-border-radius: 15px;
+	border-radius: 15px;
+	opacity: 0.7;
+	clear: both;
+}
+
+.infopane {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px auto;
+}
+
+.infopane .content {
+	margin: 200px 20%;
+	background: black;
+	width: 800px;
+	padding: 5px 20px;
+     	-moz-border-radius: 15px;
+	border-radius: 15px;
+	opacity: 0.7;
+	color: white;
+	display: block;
+}
+
+.infopane p {
+	font: 12pt Garamond;
+}
+
+h1 , h2 {
+	font: 15pt Verdana;
+}
+
+h2 {
+	font-size: 13pt;
+}
+
+.breakdown {
+	margin-left: 20px;
+}
+
+.backtrack {
+	font: 10pt Verdana;
+}
+
+.popup td {
+	color: white;
+}
+#winner {
+	margin-top: -169px;
+}
+
+#video_background {
+	 position: absolute; 
+	 left: 0px; 
+	 top: 0px; 
+ }
+
+.videowrapper {
+  width: 1280px;
+  height: 800px;
+  position: relative;
+  margin: 0px auto 0px auto; 
+  padding: 0px;
+}

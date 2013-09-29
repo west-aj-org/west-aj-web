@@ -1,0 +1,11 @@
+UPDATE flags SET time = UNIX_TIMESTAMP(CURRENT_TIMESTAMP), pid = 'none', active='0';
+UPDATE flags SET house = 'honey' WHERE flag='apple' or flag='cake' or flag='frodo' or flag='team';
+UPDATE flags SET house = 'hawthorn' WHERE flag='gandalf' or flag='horcrux' or flag='lemon' or flag='doctor';
+UPDATE flags SET house = 'hickory' WHERE flag='meerkat' or flag='micro' or flag='popcorn' or flag='tardis';
+UPDATE flags SET house = 'holly' WHERE flag='steve' or flag='voldemort' or flag='maroon' or flag='trash';
+UPDATE flags SET house = 'none' WHERE flag='chalk' or flag='door';
+UPDATE flags SET active=1 WHERE flag = 'team' or flag = 'trash' or flag = 'tardis' or flag = 'doctor';
+DELETE FROM captures;
+DELETE FROM students;
+DELETE FROM cheaters;
+UPDATE flag_points SET points=0;
