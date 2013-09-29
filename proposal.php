@@ -28,9 +28,9 @@
 	
 	<div class="breakdown">
 		<?php 
-		if ($_GET['error'] == 1) {
+		if (isset($_GET['error']) && $_GET['error'] == 1) {
 			echo "<p style=\"color: red\">The was an error processing your proposal!</p>";
-		} else if ($_GET['success'] == 1) {
+		} else if (isset($_GET['success']) && $_GET['success'] == 1) {
 			echo "<p class=\"winning_color\">Your proposal has been submitted</p>";
 		} 
 		?>

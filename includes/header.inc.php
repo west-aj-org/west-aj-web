@@ -124,7 +124,7 @@
 		  <li><a href="community.php"><strong>Community</strong></a></li>
 		  <li><a href="special.php"><strong>Events</strong></a></li>
 		  <li><a href="documents.php"><strong>Miscellaneous Info</strong></a></li>
-		  <li><a href="#"><strong>Proposals</strong></a></li>
+		  <li><a href="general_proposal.php"><strong>Proposals</strong></a></li>
 		</ul>
 	  </div>
 	</div>
