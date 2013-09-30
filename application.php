@@ -78,28 +78,11 @@ document.getElementById("f7").style.display= "block";
 
 </script>
 <div class="videowrapper">
-	<video id="video_background" width="1280px" height="800px" autoplay loop>
-		<source src="images/<? echo $winner ?>_win.mp4" type="video/mp4">
-		<source src="images/<? echo $winner ?>_win.webm" type="video/webm">
-		<source src="images/<? echo $winner ?>_win.ogv" type="video/ogg">
-	</video>
-		<div class="points">
-		<div id="hawthorn" class="banner"><? echo sprintf("%04d", $hawthorn) ?></div>
-		<div id="hickory" class="banner"><? echo sprintf("%04d", $hickory) ?></div>
-		<div id="spacer">&nbsp;</div>
-		<div id="holly" class="banner"><? echo sprintf("%04d", $holly) ?></div>
-		<div id="honey" class="banner"><? echo sprintf("%04d", $honey) ?></div>
-	</div>
-	<a href="sports.php" id="sports"></a>
-	<a href="prosim.php" id="prosim"></a>
-	<a href="education.php" id="education"></a>
-	<a href="community.php" id="community"></a>
-	<a href="special.php" id="special"></a>
-	<a href="documents.php" id="info"></a>
+	<?php include("includes/main.inc.php");?>
 		
 	<div class="infopane">
 		<div class="content">
-			<a href="index.php" class="backtrack winning_color">« Back to homepage</a>
+			<a href="index.php" class="backtrack winning_color">Back to homepage</a>
 	<h1 class="winning_color"> Cabinet Application </h1>
 	<p>  </p>
 	
